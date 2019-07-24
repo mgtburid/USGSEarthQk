@@ -3,17 +3,6 @@ import json
 import sys
 
 def main():
-# getting the HTML code of a page and writing it into a textfile (might be used in future updates)
-
-        #x = str(input("Enter the website domain name: "))
-        #webURL = "https://" + x
-        #web = urllib.request.urlopen(webURL)
-        #print("Connected to", webURL + ". Result code: " + str(web.getcode()))
-        #data = web.read()
-        #w = open("HTML.txt", "w+")
-        #w.write(str(data))
-        #w.close()
-
 # accessing the page
 
         webURL = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php"
